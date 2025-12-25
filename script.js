@@ -3,7 +3,7 @@
 // Copy the format: "Reason text here",
 // ==================================================
 const reasons = [
-    "I love how easy it is to talk to you about anything", // 1
+    "I love how easy it is to talk to you about anything!", // 1
     "I love the way you look at me", // 2
     "I love your unruly hair just the way it is", // 3
     "I love how thoughtful you are with your gifts for me, like my custom necklace with your name carved on it", // 4
@@ -33,7 +33,7 @@ const reasons = [
 ];
 
 // Start date - change this to when you want the countdown to begin
-const START_DATE = new Date('2025-12-25T17:13:00');
+const START_DATE = new Date('2025-12-25T17:50:00');
 
 function getDayNumber() {
     const now = new Date();

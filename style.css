@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: linear-gradient(135deg, #FFB6D9 0%, #FFC9E3 50%, #FFFFFF 100%);
     min-height: 100vh;
     display: flex;
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 90%;
     width: 100%;
     background: white;
     border-radius: 30px;
@@ -29,7 +29,7 @@ body {
 }
 
 .title {
-    font-size: 2.5em;
+    font-size: 2.2em;
     color: #FF69B4;
     margin-bottom: 10px;
     font-weight: 700;
@@ -68,8 +68,8 @@ body {
 }
 
 .reason-text {
-    font-size: 1.3em;
-    color: #D5006D;
+    font-size: 1.2em;
+    color: #FF69B4;
     line-height: 1.6;
     position: relative;
     z-index: 1;
