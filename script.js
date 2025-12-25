@@ -3,6 +3,7 @@
 // Copy the format: "Reason text here",
 // ==================================================
 const reasons = [
+    "I love your random GIFs when we chat. Some of them were really funny hehe", // 19
     "I love how easy it is to talk to you about anything!", // 1
     "I love the way you look at me", // 2
     "I love your unruly hair just the way it is", // 3
@@ -21,7 +22,6 @@ const reasons = [
     "I love how you always bring out the best in me", // 16
     "🫢", // 17
     "I love the comfort that you give to me naturally", // 18
-    "I love your random GIFs when we chat. Some of them were really funny hehe", // 19
     "I love how calm and loving we become with each other after overcoming a challenge we've had in our relationship", // 20
     "I love all the memories we've made on all the different places we've been to together with just the two of us", // 21
     "I love your memory gold", // 22
