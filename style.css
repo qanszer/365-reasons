@@ -83,7 +83,7 @@ body {
 }
 
 .unlock-btn {
-    background: linear-gradient(135deg, #FF69B4 0%, #FF1493 100%);
+    background: linear-gradient(135deg, #FF69B4 30%, #FF69B4 100%);
     color: white;
     border: none;
     padding: 18px 50px;
