@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #FFB6D9 0%, #FFC9E3 50%, #FFFFFF 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    background: white;
+    border-radius: 30px;
+    padding: 40px 30px;
+    box-shadow: 0 20px 60px rgba(255, 182, 217, 0.4);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #FF69B4;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.day-counter {
+    font-size: 1.2em;
+    color: #FFB6D9;
+    font-weight: 600;
+}
+
+.card {
+    background: linear-gradient(135deg, #FFE5F0 0%, #FFF5FA 100%);
+    border-radius: 20px;
+    padding: 40px 30px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(255, 182, 217, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '♥';
+    position: absolute;
+    font-size: 150px;
+    color: rgba(255, 182, 217, 0.1);
+    top: -30px;
+    right: -20px;
+    transform: rotate(-15deg);
+}
+
+.reason-text {
+    font-size: 1.3em;
+    color: #D5006D;
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+}
+
+.locked-message {
+    font-size: 1.1em;
+    color: #FFB6D9;
+    font-style: italic;
+}
+
+.unlock-btn {
+    background: linear-gradient(135deg, #FF69B4 0%, #FF1493 100%);
+    color: white;
+    border: none;
+    padding: 18px 50px;
+    font-size: 1.1em;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(255, 20, 147, 0.3);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.unlock-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(255, 20, 147, 0.4);
+}
+
+.unlock-btn:active {
+    transform: translateY(0);
+}
+
+.unlock-btn:disabled {
+    background: linear-gradient(135deg, #FFCCE5 0%, #FFD9EC 100%);
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.footer {
+    text-align: center;
+    color: #FFB6D9;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.hearts {
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+@keyframes float-up {
+    0% {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100px) rotate(360deg);
+    }
+}
+
+.heart-particle {
+    position: absolute;
+    font-size: 20px;
+    animation: float-up 2s ease-out forwards;
+}
