@@ -33,11 +33,14 @@ const reasons = [
 ];
 
 // Start date - change this to when you want the countdown to begin
-const START_DATE = new Date('2025-12-25T18:08:00');
+const START_DATE = new Date('2025-12-25T00:00:00');
 
 function getDayNumber() {
     const now = new Date();
-    const diffTime = Math.abs(now - START_DATE);
+    now.setHours(0, 0, 0, 0);
+    const startDate = new Date(START_DATE);
+    startDate.setHours(0, 0, 0, 0);
+    const diffTime = now - startDate;
     const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
     return Math.min(diffDays + 1, 365);
 }
@@ -92,7 +95,6 @@ function unlockReason() {
     } else if (text === "Come back tomorrow for another reason ♥" ) {
         document.getElementById("footer").innerHTML = text.replace("Come back tomorrow for another reason ♥", "Click the button bby!")
     }
-    
 }
 
 function init() {
@@ -106,7 +108,7 @@ function init() {
         document.getElementById('unlockBtn').textContent = 'Unlocked for Today ♥';
     } else {
         document.getElementById('reasonText').textContent = 
-            'Tap below to see why I love you today bb ♥';
+            'Today\'s reason is waiting for you... ♥';
     }
 
     document.getElementById('unlockBtn').addEventListener('click', function(e) {
