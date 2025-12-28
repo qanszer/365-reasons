@@ -32,6 +32,15 @@ const reasons = [
     // Remember to put a comma after each reason except the last one
 ];
 
+// let text = document.getElementById("footer").innerHTML;
+
+// let footer = document.getElementById("reasonText").innerHTML;
+// if (footer === "Click the button bby!") {
+//     document.getElementById("footer").innerHTML = text.replace("Click the button bby!", "Come back tomorrow for another reason ♥")
+// } else if (footer === "Come back tomorrow for another reason ♥" ) {
+//     document.getElementById("footer").innerHTML = text.replace("Come back tomorrow for another reason ♥", "Click the button bby!")
+// }
+
 // Start date - change this to when you want the countdown to begin
 const START_DATE = new Date('2025-12-25T00:00:00');
 
@@ -89,12 +98,11 @@ function unlockReason() {
     localStorage.setItem('lastUnlock', getTodayDate());
     localStorage.setItem('lastReason', reason);
 
-    let text = document.getElementById("footer").innerHTML;
-    if (text === "Click the button bby!") {
-        document.getElementById("footer").innerHTML = text.replace("Click the button bby!", "Come back tomorrow for another reason ♥")
-    } else if (text === "Come back tomorrow for another reason ♥" ) {
-        document.getElementById("footer").innerHTML = text.replace("Come back tomorrow for another reason ♥", "Click the button bby!")
-    }
+    // if (text === "Click the button bby!") {
+    //     document.getElementById("footer").innerHTML = text.replace("Click the button bby!", "Come back tomorrow for another reason ♥")
+    // } else if (text === "Come back tomorrow for another reason ♥" ) {
+    //     document.getElementById("footer").innerHTML = text.replace("Come back tomorrow for another reason ♥", "Click the button bby!")
+    // }
 }
 
 function init() {
