@@ -12,22 +12,26 @@ const reasons = [
     "I love the way you care about your hair, as well as your different hairstyles with it", // 6
     "I love the way you respect your parents and give them gifts/treats", // 7
     "I love how you face challenges head-on and think of innovative solutions that I wouldn't even think of", // 8
-    "I love how much you value your bonds with your friends and how proactive you are in keeping your friendships with them", // 9
-    "I love the creativity and effort that you give in all that you do", // 10
-    "I love how caring you are of cats, so much so that you keep them even when it becomes inconvenient", // 11
-    "I love how much you take care of crinkles", // 12
-    "I love that you always involve yourself in organizations and other things that improve you", // 13
-    "I love how you strive to become financially wise and know how to take care of your money", // 14
-    "I love the fact that your hands are so capable in so many different things---art, crafts, embroidery,  letter-making, bouquet-making, and many more", // 15
-    "I love how you always bring out the best in me", // 16
-    "🫢", // 17
-    "I love the comfort that you give to me naturally", // 18
-    "I love how calm and loving we become with each other after overcoming a challenge we've had in our relationship", // 20
-    "I love all the memories we've made on all the different places we've been to together with just the two of us", // 21
     "I love your memory gold", // 22
+    "🫢", // 17
+    "I love how much you take care of crinkles", // 12
+    "I love how caring you are of cats, so much so that you keep them even when it becomes inconvenient", // 11
+    "I love how we've made future plans already on what to do with our future together", // 25
+    "I love the comfort that you give to me naturally", // 18
     "I love you hehe mwa", // 23
     "I love when you become childish and playful when we're together", // 24
-    "I love how we've made future plans already on what to do with our future together" // 25
+    "I love the creativity and effort that you give in all that you do", // 10
+    "I love how you always bring out the best in me", // 16
+    "I love how much you value your bonds with your friends and how proactive you are in keeping your friendships with them", // 9
+    "I love that you always involve yourself in organizations and other things that improve you", // 13
+    "I love the fact that your hands are so capable in so many different things---art, crafts, embroidery,  letter-making, bouquet-making, and many more", // 15
+    "I love how you strive to become financially wise and know how to take care of your money", // 14
+    "I love all the memories we've made on all the different places we've been to together with just the two of us", // 21
+    "I love how calm and loving we become with each other after overcoming a challenge we've had in our relationship", // 20
+    "I love how willing you are when I suggest things we can do together", // 26
+    "I love watching you sleep", // 27
+    "I love how smart you are", //28
+    "I miss you gr", // 29
     // Add more reasons here - just keep adding lines like above!
     // Remember to put a comma after each reason except the last one
 ];
