@@ -32,6 +32,16 @@ const reasons = [
     "I love watching you sleep", // 27
     "I love how smart you are", //28
     "I miss you gr", // 29
+    "I love how you look when concentrating. I could stare at you the whole day", // 30
+    "I love your sleepy voice and your sleepy typings", // 31
+    "I love smelling your hair. It always smells nice bb", // 32
+    "I looooove the taste of your lips", // 33
+    "I love your stubborn determination when you've decided on a goal", // 34
+    "I love that you always text me when you get home safe", // 35
+    "I love how you believe in me to work all things out in the end", // 36
+    "I love how you challenge me to be a better version of myself", // 37
+    "I love when you randomly decide to be flirty", // 38
+    "", // 39
     // Add more reasons here - just keep adding lines like above!
     // Remember to put a comma after each reason except the last one
 ];
