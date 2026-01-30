@@ -1,7 +1,10 @@
 // ==================================================
-// TO ADD MORE REASONS: Just add them to this array!
-// Copy the format: "Reason text here",
+
+// THIS IS FOR MY GIRLFRIEND
+// IF YOU DON'T WANT TO CRINGE, I ADVISE YOU NOT TO CONTINUE READING
+
 // ==================================================
+
 const reasons = [
     "I love your random GIFs when we chat. Some of them were really funny hehe", // 19
     "I love how easy it is to talk to you about anything!", // 1
@@ -39,7 +42,7 @@ const reasons = [
     "I love your stubborn determination when you've decided on a goal", // 34
     "I love that you always text me when you get home safe", // 35
     "I love how you believe in me to work all things out in the end", // 36
-    "I love how you challenge me to be a better version of myself", // 37
+    "I love how you challenge me to be a better version of myself", // 37 - Jan 30
     "I love when you randomly decide to be flirty", // 38
     "", // 39
     // Add more reasons here - just keep adding lines like above!
