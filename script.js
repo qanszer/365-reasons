@@ -45,7 +45,7 @@ const reasons = [
     "I love how you challenge me to be a better version of myself", // 37 - Jan 30
     "I love when you randomly decide to be flirty", // 38
     "I love your curves bb, so hypnotizing", // 39
-    "I love how pretty you are", // 40 
+    "I love how pretty you are yie", // 40 
     "", // 41
     // Add more reasons here - just keep adding lines like above!
     // Remember to put a comma after each reason except the last one
