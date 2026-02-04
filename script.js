@@ -47,6 +47,9 @@ const reasons = [
     "I love your curves bb, so hypnotizing", // 39
     "I love how pretty you are yie", // 40 
     "I love you as you are bb", // 41
+    "I love remembering all the dates we had together", // 42
+    "I love seeing you smile. I miss seeing it in person", // 43
+    "", // 44
     // Add more reasons here - just keep adding lines like above!
     // Remember to put a comma after each reason except the last one
 ];
