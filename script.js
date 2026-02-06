@@ -50,7 +50,9 @@ const reasons = [
     "I love remembering all the dates we had together", // 42
     "I love seeing you smile. I miss seeing it in person", // 43
     "I loved each and every one of our sessions. I miss it honestly bb, ay", // 44
-    "", // 45
+    "I love ur reaction faces. So cute", // 45
+    "I love seeing you wear my clothes", // 46
+    "", // 47 2-8-26
     // Add more reasons here - just keep adding lines like above!
     // Remember to put a comma after each reason except the last one
 ];
