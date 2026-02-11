@@ -54,7 +54,11 @@ const reasons = [
     "I love seeing you wear my clothes", // 46
     "I love being your boyfriend", // 47 2-9-26
     "I love youuuuuuuuuuu", // 48 2-10
-    "I love seeing you walk from the back bb. Ur sexy muwalk", // 49 
+    "I love seeing you walk from the back bb. U r sexy muwalk", // 49 
+    "I love our first kiss experience which turned to a make out", // 50
+    "I love ", // 51
+    "", // 52 VALENTINES DAY
+
     // Add more reasons here - just keep adding lines like above!
     // Remember to put a comma after each reason except the last one
 ];
