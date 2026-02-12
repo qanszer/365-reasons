@@ -56,7 +56,7 @@ const reasons = [
     "I love youuuuuuuuuuu", // 48 2-10
     "I love seeing you walk from the back bb. U r sexy muwalk", // 49 
     "I love our first kiss experience which turned to a make out", // 50
-    "I love how we more or less already have plans for our future together", // 51
+    "Hi love! I would like to formally invite you to be my valentine date tomorrow. If you so graciously agree, kindly email me your free time for this Saturday thru @maluendajohnsteven.com", // 51
     "", // 52 VALENTINES DAY
 
     // Add more reasons here - just keep adding lines like above!
