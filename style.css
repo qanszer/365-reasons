@@ -7,14 +7,17 @@
 body {
     font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 .hero {
     background: linear-gradient(135deg, #FFB6D9 0%, #FFC9E3 50%, #FFFFFF 100%);
-    min-height: 100vh;
+    min-height: 105vh;
     padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -143,4 +146,21 @@ body {
     position: absolute;
     font-size: 20px;
     animation: float-up 2s ease-out forwards;
+}
+
+
+
+/* ====== */
+
+
+
+.hero2 {
+    background: linear-gradient(45deg, #FFB6D9 0%, #FFC9E3 50%, #FFFFFF 100%);
+    min-height: 100vh;
+}
+
+
+.valentines {
+    min-height: 100vh;
+    border-top: 2px solid #ffb9db;
 }
