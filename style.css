@@ -6,11 +6,14 @@
 
 body {
     font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: linear-gradient(135deg, #FFB6D9 0%, #FFC9E3 50%, #FFFFFF 100%);
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero {
+    background: linear-gradient(135deg, #FFB6D9 0%, #FFC9E3 50%, #FFFFFF 100%);
+    min-height: 100vh;
     padding: 20px;
 }
 

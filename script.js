@@ -57,7 +57,7 @@ const reasons = [
     "I love seeing you walk from the back bb. U r sexy muwalk", // 49 
     "I love our first kiss experience which turned to a make out", // 50
     "Hi love! I would like to formally invite you to be my valentine date tomorrow. If you so graciously agree, kindly email me your free time for this Saturday thru @maluendajohnsteven.com", // 51
-    "", // 52 VALENTINES DAY
+    "Try scrolling down love", // 52 VALENTINES DAY
 
     // Add more reasons here - just keep adding lines like above!
     // Remember to put a comma after each reason except the last one
@@ -147,7 +147,8 @@ function init() {
         document.getElementById('unlockBtn').textContent = 'Unlocked for Today ♥';
     } else {
         document.getElementById('reasonText').textContent = 
-            'Today\'s reason is waiting for you... ♥';
+            // 'Today\'s reason is waiting for you... ♥';
+            "ATTENTION LOVE! Don't click the button until it's time for our Valentine's date.\nThank you bb!! ♥"
     }
 
     document.getElementById('unlockBtn').addEventListener('click', function(e) {
