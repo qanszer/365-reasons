@@ -12,7 +12,7 @@ body {
 
 .hero {
     background: linear-gradient(135deg, #FFB6D9 0%, #FFC9E3 50%, #FFFFFF 100%);
-    min-height: 105vh;
+    min-height: 100vh;
     padding: 20px;
 
     display: flex;
@@ -162,5 +162,6 @@ body {
 
 .valentines {
     min-height: 100vh;
-    border-top: 2px solid #ffb9db;
+    /* border-top: 2px solid #ffb9db; */
+
 }
