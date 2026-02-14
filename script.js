@@ -58,7 +58,8 @@ const reasons = [
     "I love our first kiss experience which turned to a make out", // 50
     "Hi love! I would like to formally invite you to be my valentine date tomorrow. If you so graciously agree, kindly email me your free time for this Saturday thru @maluendajohnsteven.com", // 51
     "Go to our website using your laptop! Copy this link: \nhttps://qanszer.github.io/eli-and-sevs-archive/index.html#top", // 52 VALENTINES DAY
-    "", // 53
+    "I love to make you laugh, blush, and smile. So satisfying as your boyfriend", // 53
+    "", 
     // Add more reasons here - just keep adding lines like above!
     // Remember to put a comma after each reason except the last one
 ];
