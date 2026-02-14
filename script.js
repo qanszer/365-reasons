@@ -57,7 +57,7 @@ const reasons = [
     "I love seeing you walk from the back bb. U r sexy muwalk", // 49 
     "I love our first kiss experience which turned to a make out", // 50
     "Hi love! I would like to formally invite you to be my valentine date tomorrow. If you so graciously agree, kindly email me your free time for this Saturday thru @maluendajohnsteven.com", // 51
-    "Go to our website love using your laptop. Copy this link: \nhttps://qanszer.github.io/eli-and-sevs-archive/index.html#top", // 52 VALENTINES DAY
+    "Go to our website using your laptop! Copy this link: \nhttps://qanszer.github.io/eli-and-sevs-archive/index.html#top", // 52 VALENTINES DAY
     "", // 53
     // Add more reasons here - just keep adding lines like above!
     // Remember to put a comma after each reason except the last one
