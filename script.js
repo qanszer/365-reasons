@@ -59,7 +59,8 @@ const reasons = [
     "Hi love! I would like to formally invite you to be my valentine date tomorrow. If you so graciously agree, kindly email me your free time for this Saturday thru @maluendajohnsteven.com", // 51
     "Go to our website using your laptop! Copy this link: \nhttps://qanszer.github.io/eli-and-sevs-archive/index.html#top", // 52 VALENTINES DAY
     "I love to make you laugh, blush, and smile. So satisfying as your boyfriend", // 53
-    "", 
+    "I love our intentional dates", // 54
+    "", // 55
     // Add more reasons here - just keep adding lines like above!
     // Remember to put a comma after each reason except the last one
 ];
@@ -148,8 +149,8 @@ function init() {
         document.getElementById('unlockBtn').textContent = 'Unlocked for Today ♥';
     } else {
         document.getElementById('reasonText').textContent = 
-            // 'Today\'s reason is waiting for you... ♥';
-             "ATTENTION LOVE! Don't click the button until it's time for our Valentine's date.\nThank you bb!! ♥"
+            'Today\'s reason is waiting for you... ♥';
+            //  "ATTENTION LOVE! Don't click the button until it's time for our Valentine's date.\nThank you bb!! ♥"
     }
 
     document.getElementById('unlockBtn').addEventListener('click', function(e) {
